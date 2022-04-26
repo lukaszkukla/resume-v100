@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 /* colors used for the website */
 
 :root {
@@ -26,4 +28,23 @@ body {
 
 a {
     text-decoration: none;
+}
+
+header {
+    margin: 0;
+}
+
+.bg-color-name-title {
+    background: #676767;
+}
+
+.logo {
+    background: url("../images/ant.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 36rem;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
