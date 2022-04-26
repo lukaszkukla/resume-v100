@@ -1,0 +1,29 @@
+/* colors used for the website */
+
+:root {
+    
+}
+
+/* global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
