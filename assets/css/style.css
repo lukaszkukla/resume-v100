@@ -46,6 +46,19 @@ header {
     background: #676767;
 }
 
+.ui-menu-color-home {
+    background: #e67e22;
+}
+.ui-menu-color-resume {
+    background: #9b59b6;
+}
+.ui-menu-color-contact {
+    background: #3498db;
+}
+.ui-menu-color-download {
+    background: #525252;
+}
+
 .logo {
     background: url("../images/ant.jpg");
     background-position: center;
