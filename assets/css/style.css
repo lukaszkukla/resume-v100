@@ -30,9 +30,17 @@ a {
     text-decoration: none;
 }
 
+/* Heading */
+
 header {
     margin: 0;
 }
+
+.heading {
+    margin-left: 5rem;
+}
+
+/* Colors */
 
 .bg-color-name-title {
     background: #676767;
@@ -47,4 +55,21 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 4.6rem;
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 9rem;
+    color: #fff;
 }
