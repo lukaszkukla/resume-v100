@@ -83,3 +83,16 @@ header {
     margin-bottom: 9rem;
     color: #fff;
 }
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 1.6rem;
+    padding: 0;
+}
