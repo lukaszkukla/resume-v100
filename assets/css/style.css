@@ -30,6 +30,18 @@ a {
     text-decoration: none;
 }
 
+/* Special paddings / margins / text */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /* Heading */
 
 header {
@@ -135,4 +147,12 @@ header {
 
 .hvr-sweep-to-bottom::before {
     background: rgba(0,0,0,0.4);
+}
+
+/* Footer */
+
+footer {
+    background: #525252;
+    color: #fafafa;
+    min-height: 12rem;
 }
