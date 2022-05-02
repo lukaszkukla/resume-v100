@@ -25,6 +25,8 @@ body {
 body {
     font-size: 1.6rem;
     line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    background: #525252;
 }
 
 a {
@@ -65,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p {
 .section-heading {
     font-family: "Exo", sans-serif;
     font-size: 2.8rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 2.5rem;
     margin-bottom: 4rem;
 }
@@ -96,6 +98,10 @@ header {
 
 .bg-color-work-history {
     background: #9b59b6;
+}
+
+.bg-color-contact {
+    background: #3498db;
 }
 
 .ui-menu-color-home {
@@ -193,7 +199,7 @@ header {
 footer {
     background: #525252;
     color: #fafafa;
-    min-height: 12rem;
+    min-height: 14rem;
 }
 
 .cv-pdf i {
@@ -246,6 +252,7 @@ footer {
 }
 
 .three-reasons-heading {
+    font-weight: 300;
     margin-bottom: 1.5rem;
     font-size: 2.6rem;
 }
@@ -347,4 +354,49 @@ footer {
 
 .history-items {
     margin-bottom: 3rem;
+}
+
+/* Contact form */
+
+.form-control {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-slogan {
+    font-size: 2.6rem;
+    font-weight: 300;
+}
+
+.center-form {
+    padding-top: 1rem;
+    margin: 0 auto;
+    max-width: 70%;   
+}
+
+button[type="submit"] {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: #fafafa;
+    background: #e84610;
+}
+
+/* Media queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 3rem;
+        min-height: 24rem;
+        margin: 0 auto;
+        max-width: 30%;   
+    }
 }
