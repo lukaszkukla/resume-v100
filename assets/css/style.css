@@ -90,11 +90,11 @@ header {
     background: #676767;
 }
 
-.bg-color-three-reasons {
+.bg-color-three-reasons, .bg-color-interests, .bg-color-github, .bg-color-groups {
     background: #fff;
 }
 
-.bg-color-personal-info {
+.bg-color-personal-info, .bg-color-conferences {
     background: #f4f4f4;
 }
 
@@ -117,6 +117,13 @@ header {
 }
 .ui-menu-color-download {
     background: #525252;
+}
+.ui-menu-color-github {
+    background: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background: #e74c3c;
 }
 
 .logo {
